@@ -28,7 +28,7 @@ def utfoerMenyvalg(valgtTall):
         pause_og_fortsett()
     elif valgtTall == "5":
         bekreftelse = input("Er du sikker på at du vil avslutte? J/N ")
-        if (bekreftelse == "J" or bekreftelse == "N"):
+        if (bekreftelse == "J" or bekreftelse == "j"):
             exit()
         else:
             printMeny()
