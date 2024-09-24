@@ -16,3 +16,6 @@ def trekkFra():
 def gange():
     produkt = 3*3
     TODO: Gjøre ferdig '''
+
+
+'''asdjhawosjd'''
