@@ -1,8 +1,9 @@
 def calculator():
     # Get user input for numbers and operation
+    operation = input("Velg operasjon (+, -, *, /): ")
     tall1 = int(input("Skriv inn det første tallet: "))
     tall2 = int(input("Skriv inn det andre tallet: "))
-    operation = input("Velg operasjon (+, -, *, /): ")
+    
     # Perform the chosen operation
     if operation == "+":
         result = tall1 + tall2
