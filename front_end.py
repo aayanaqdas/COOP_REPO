@@ -22,18 +22,19 @@ def utfoerMenyvalg(valgtTall):
         pause_og_fortsett()
     elif valgtTall == "3":
         gange()
+        pause_og_fortsett()
     elif valgtTall == "4":
-        unfinished()
+        dele()
+        pause_og_fortsett()
     elif valgtTall == "5":
         bekreftelse = input("Er du sikker på at du vil avslutte? J/N ")
-        if (bekreftelse == "J" or bekreftelse == "j"):
+        if (bekreftelse == "J" or bekreftelse == "N"):
             exit()
         else:
             printMeny()
     else:
-        nyttForsoek = input("*** Ugyldig valg."
-                            "Velg et tall mellom 1-4."
-                            " Trykk for å fortsette *** ")
+        nyttForsoek = input("*** Ugyldig valg. Velg et tall mellom 1-4. Trykk for å fortsette *** ")
+        print(nyttForsoek)
         printMeny()
 
 
