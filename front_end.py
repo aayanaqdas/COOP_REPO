@@ -44,3 +44,6 @@ def pause_og_fortsett():
 
 printMeny()
 
+'''
+dhfkjsdfjksdjkshjkfsjkhjksd
+'''
